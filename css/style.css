@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 14px;
+	font-family: Georgia, sans-serif;
+}
+.container{
+	margin:0 auto;
+	max-width: 960px;
+	width:96%;
+}
+.header_area{
+	width:100%;
+	clear:both;
+}
+.inner_header{
+}
+.logo_menu{
+	overflow: hidden;
+	margin:20px 10px;
+}
+.logo{
+	float:left;
+	width:60%;
+}
+.menu{
+	float: right;
+	width: 40%;
+}
+
+#banner_area{
+	width:100%;
+	clear:both;
+	margin-bottom: 20px;
+}
+.inner_banner{
+	background: url(../img/slider_01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	padding:200px 0;
+}
+.banner_text{
+	
+}
+.banner_text h1{
+	position: absolute;
+	font-size: 30px;
+	color:#fff;
+	text-align: center;
+	transform: translate(203%, -127%);
+}
+
+#work_area{
+	width:100%;
+	clear:both;
+	margin:20px 0;
+}
+.inner_work{
+	overflow: hidden;
+}
+.inner_work img{
+	border-radius: 50%;
+}
+.inner_work h2{
+	text-align: center;
+}
+.inner_work p{
+	text-align: center;
+}
+.service{
+	float: left;
+	margin:0 5px;
+}
+.doctor{
+	width:31%;
+	/*float: left;*/
+	text-align: center;
+}
+.engineer{
+	width:31%;
+	/*float: left;*/
+	text-align: center;
+}
+.nurse{
+	width:31%;
+	/*float: left;*/
+	text-align: center;
+}
+.inner_work h1{
+	font-size: 30px;
+	text-align: center;
+	margin:10px 0;
+}
+#video_area{
+	width:100%;
+	margin:25px 0;
+}
+.inner_video{
+	text-align: center;
+}
+#footer_area{
+	width:100%;
+}
+.inner_footer{
+	background: #ddd;
+	padding:30px 0;
+}
+.inner_footer p{
+	font-size: 20px;
+	text-align: center;
+}
